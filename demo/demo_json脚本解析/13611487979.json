@@ -1,0 +1,660 @@
+{
+    "success": true,
+    "code": "0000",
+    "msg": "操作成功",
+    "data": {
+        "trans_id": "27395df0-f2ba-11e8-94f1-00163e0ed28c",
+        "person_info": {
+            "idcard": "44022919840425****",
+            "idcard_location": "广东省/韶关市/翁源县",
+            "mobile": "1361148****",
+            "carrier": "中国移动",
+            "mobile_location": "广东/广州",
+            "name": "陈**",
+            "age": 34,
+            "gender": "男",
+            "email": "",
+            "education_info": {
+                "level": 0,
+                "is_graduation": false
+            }
+        },
+        "verification_info": {
+            "has_carrier_data": true,
+            "has_onlinebank_data": true
+        },
+        "black_info_detail": {
+            "mobile_name_in_blacklist": false,
+            "mobile_name_blacklist_updated_time": "",
+            "idcard_name_in_blacklist": false,
+            "idcard_name_blacklist_updated_time": "",
+            "black_types": "",
+            "blacklist_record": {
+                "overdue_count": 0,
+                "overdue_amount": "",
+                "overdue_status": ""
+            }
+        },
+        "gray_info_detail": {
+            "mobile_name_in_gray": false,
+            "mobile_name_gray_updated_time": "",
+            "idcard_name_in_gray": false,
+            "idcard_name_gray_updated_time": "",
+            "gray_types": "",
+            "graylist_record": {
+                "overdue_count": 0,
+                "overdue_amount": "",
+                "overdue_status": ""
+            }
+        },
+        "mobile_info": {
+            "match_score": 100,
+            "mobile_contact_30d": {
+                "contactnum": 30,
+                "auth_contactnum": 1,
+                "auth_contact_ratio": "0.03",
+                "black_contactnum": 0,
+                "black_contactnum_ratio": "0.00",
+                "contact_type": "",
+                "auth_indirectnum": 0,
+                "auth_indirectnum_ratio": "0.00",
+                "black_indirectnum": 0,
+                "black_indirectnum_ratio": "0.00",
+                "black_indirect_peernum": 0,
+                "black_indirect_peernum_ratio": "0.00",
+                "auth_indirect_peernum": 0,
+                "auth_indirect_peernum_ratio": "0.00"
+            },
+            "intimate_contact_info_30d": {
+                "intimatenum": 7,
+                "auth_intimatenum": 1,
+                "auth_intimatenum_ratio": "0.14",
+                "black_intimatenum": 0,
+                "black_intimatenum_ratio": "0.00",
+                "intimate_type": "",
+                "auth_intimate_indirectnum": 0,
+                "auth_intimate_indirectnum_ratio": "0.00",
+                "black_intimate_indirectnum": 0,
+                "black_intimate_indirectnum_ratio": "0.00",
+                "black_intimate_indirect_peernum": 0,
+                "black_intimate_indirect_peernum_ratio": "0.00",
+                "auth_intimate_indirect_peernum": 0,
+                "auth_intimate_indirect_peernum_ratio": "0.00"
+            },
+            "mobile_contact_90d": {
+                "contactnum": 70,
+                "auth_contactnum": 1,
+                "auth_contact_ratio": "0.01",
+                "black_contactnum": 0,
+                "black_contactnum_ratio": "0.00",
+                "contact_type": "",
+                "auth_indirectnum": 0,
+                "auth_indirectnum_ratio": "0.00",
+                "black_indirectnum": 0,
+                "black_indirectnum_ratio": "0.00",
+                "black_indirect_peernum": 0,
+                "black_indirect_peernum_ratio": "0.00",
+                "auth_indirect_peernum": 0,
+                "auth_indirect_peernum_ratio": "0.00"
+            },
+            "intimate_contact_info_90d": {
+                "intimatenum": 13,
+                "auth_intimatenum": 1,
+                "auth_intimatenum_ratio": "0.08",
+                "black_intimatenum": 0,
+                "black_intimatenum_ratio": "0.00",
+                "intimate_type": "",
+                "auth_intimate_indirectnum": 0,
+                "auth_intimate_indirectnum_ratio": "0.00",
+                "black_intimate_indirectnum": 0,
+                "black_intimate_indirectnum_ratio": "0.00",
+                "black_intimate_indirect_peernum": 0,
+                "black_intimate_indirect_peernum_ratio": "0.00",
+                "auth_intimate_indirect_peernum": 0,
+                "auth_intimate_indirect_peernum_ratio": "0.00"
+            },
+            "mobile_contact_180d": {
+                "contactnum": 120,
+                "auth_contactnum": 1,
+                "auth_contact_ratio": "0.01",
+                "black_contactnum": 0,
+                "black_contactnum_ratio": "0.00",
+                "contact_type": "",
+                "auth_indirectnum": 8,
+                "auth_indirectnum_ratio": "0.33",
+                "black_indirectnum": 0,
+                "black_indirectnum_ratio": "0.00",
+                "black_indirect_peernum": 0,
+                "black_indirect_peernum_ratio": "0.00",
+                "auth_indirect_peernum": 1,
+                "auth_indirect_peernum_ratio": "0.01"
+            },
+            "intimate_contact_info_180d": {
+                "intimatenum": 17,
+                "auth_intimatenum": 1,
+                "auth_intimatenum_ratio": "0.06",
+                "black_intimatenum": 0,
+                "black_intimatenum_ratio": "0.00",
+                "intimate_type": "",
+                "auth_intimate_indirectnum": 5,
+                "auth_intimate_indirectnum_ratio": "0.28",
+                "black_intimate_indirectnum": 0,
+                "black_intimate_indirectnum_ratio": "0.00",
+                "black_intimate_indirect_peernum": 0,
+                "black_intimate_indirect_peernum_ratio": "0.00",
+                "auth_intimate_indirect_peernum": 1,
+                "auth_intimate_indirect_peernum_ratio": "0.06"
+            }
+        },
+        "auth_queried_detail": {
+            "register_info": {
+                "other_count": 0,
+                "org_count": 16,
+                "org_types": [
+                    "CASH_LOAN",
+                    "P2P",
+                    "DATACOVERGE",
+                    "CONSUMSTAGE"
+                ]
+            },
+            "queried_detail_org_count": 27,
+            "queried_analyze": [
+                {
+                    "org_type": "DATACOVERGE",
+                    "loan_cnt_15d": 0,
+                    "loan_cnt_30d": 0,
+                    "loan_cnt_90d": 2,
+                    "loan_cnt_180d": 3
+                },
+                {
+                    "org_type": "CASH_LOAN",
+                    "loan_cnt_15d": 7,
+                    "loan_cnt_30d": 7,
+                    "loan_cnt_90d": 12,
+                    "loan_cnt_180d": 21
+                },
+                {
+                    "org_type": "CONSUMSTAGE",
+                    "loan_cnt_15d": 0,
+                    "loan_cnt_30d": 0,
+                    "loan_cnt_90d": 1,
+                    "loan_cnt_180d": 2
+                },
+                {
+                    "org_type": "P2P",
+                    "loan_cnt_15d": 0,
+                    "loan_cnt_30d": 0,
+                    "loan_cnt_90d": 0,
+                    "loan_cnt_180d": 1
+                }
+            ],
+            "queried_infos": [
+                {
+                    "date": "2018-09-21",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-09-17",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-11-14",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-11-16",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-11-17",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-11-18",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-11-19",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-11-27",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-06-23",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-07-01",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-06-30",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-09-07",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-06-23",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-07-12",
+                    "org_type": "P2P",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-07-11",
+                    "org_type": "DATACOVERGE",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-10-28",
+                    "org_type": "DATACOVERGE",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-07-02",
+                    "org_type": "CONSUMSTAGE",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-07-02",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-06-23",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-10-03",
+                    "org_type": "CONSUMSTAGE",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-10-04",
+                    "org_type": "DATACOVERGE",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-10-05",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-06-30",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-08-29",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-09-02",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-11-24",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                },
+                {
+                    "date": "2018-06-30",
+                    "org_type": "CASH_LOAN",
+                    "is_self": false
+                }
+            ],
+            "loan_org_cnt_all": 0,
+            "loan_info": {
+                "loan_org_cnt": 0,
+                "loan_cnt": 0,
+                "loan_org_cnt_15d": 0,
+                "loan_org_cnt_30d": 0,
+                "loan_org_cnt_90d": 0,
+                "loan_org_cnt_180d": 0,
+                "loan_cnt_15d": 0,
+                "loan_cnt_30d": 0,
+                "loan_cnt_90d": 0,
+                "loan_cnt_180d": 0
+            }
+        },
+        "suspicious_idcard": {
+            "other_names_cnt": 0,
+            "other_mobiles_cnt": 0,
+            "other_mobiles_black_cnt": 0,
+            "information_sources_cnt": 13,
+            "other_names": [],
+            "other_mobiles": [],
+            "information_sources": [
+                {
+                    "latest_used_time": "2018-06-23 00:53:04",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-06-23 16:12:38",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-06-30 18:23:44",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-07-01 22:31:31",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-07-02 11:00:21",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-07-02 15:10:59",
+                    "org_type": "CONSUMSTAGE"
+                },
+                {
+                    "latest_used_time": "2018-07-12 08:51:22",
+                    "org_type": "P2P"
+                },
+                {
+                    "latest_used_time": "2018-09-07 09:01:18",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-09-17 11:48:33",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-10-03 08:47:46",
+                    "org_type": "CONSUMSTAGE"
+                },
+                {
+                    "latest_used_time": "2018-10-04 19:23:49",
+                    "org_type": "DATACOVERGE"
+                },
+                {
+                    "latest_used_time": "2018-10-05 02:13:34",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-11-24 16:05:30",
+                    "org_type": "CASH_LOAN"
+                }
+            ]
+        },
+        "suspicious_mobile": {
+            "other_names_cnt": 0,
+            "other_idcards_cnt": 0,
+            "other_idcards_black_cnt": 0,
+            "information_sources_cnt": 13,
+            "other_names": [],
+            "other_idcards": [],
+            "information_sources": [
+                {
+                    "latest_used_time": "2018-06-23 00:53:04",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-06-23 16:12:38",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-06-30 18:23:44",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-07-01 22:31:31",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-07-02 11:00:21",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-07-02 15:10:59",
+                    "org_type": "CONSUMSTAGE"
+                },
+                {
+                    "latest_used_time": "2018-07-12 08:51:22",
+                    "org_type": "P2P"
+                },
+                {
+                    "latest_used_time": "2018-09-07 09:01:18",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-09-17 11:48:33",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-10-03 08:47:46",
+                    "org_type": "CONSUMSTAGE"
+                },
+                {
+                    "latest_used_time": "2018-10-04 19:23:49",
+                    "org_type": "DATACOVERGE"
+                },
+                {
+                    "latest_used_time": "2018-10-05 02:13:34",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-11-24 16:05:30",
+                    "org_type": "CASH_LOAN"
+                }
+            ]
+        },
+        "suspicious_device": {
+            "other_devices_cnt": 2,
+            "mobile_other_devices_cnt": 2,
+            "idcard_other_devices_cnt": 2,
+            "information_sources_cnt": 2,
+            "other_names_cnt": 0,
+            "other_mobiles_cnt": 0,
+            "other_mobiles_black_cnt": 0,
+            "other_idcards_cnt": 0,
+            "other_idcards_black_cnt": 0,
+            "other_names": [],
+            "other_mobiles": [],
+            "other_idcards": [],
+            "information_sources": [
+                {
+                    "latest_used_time": "2018-07-01 22:31:31",
+                    "org_type": "CASH_LOAN"
+                },
+                {
+                    "latest_used_time": "2018-10-04 19:23:49",
+                    "org_type": "DATACOVERGE"
+                }
+            ]
+        },
+        "risk_qqgroup": {
+            "loan_groupcnt": 0,
+            "installment_groupcnt": 0,
+            "financial_management_groupcnt": 0,
+            "woolen_groupcnt": 0,
+            "gambling_groupcnt": 0
+        },
+        "risk_device": [],
+        "credit_card": {
+            "update_date": "2018-10-28 04:28:58",
+            "bank_nums": 1,
+            "card_amount": 1,
+            "total_credit_limit": "10000~20000",
+            "max_credit_limit": "10000~20000",
+            "overdue_card": 0,
+            "bill_nums": 6,
+            "credit_overdue_item_12m": {
+                "overdue_times": 0,
+                "overdue_months": 0
+            },
+            "credit_overdue_item_6m": {
+                "overdue_times": 0,
+                "overdue_months": 0
+            },
+            "credit_overdue_item_3m": {
+                "overdue_times": 0,
+                "overdue_months": 0
+            },
+            "last_overdue_date": "",
+            "max_overdue_money": "",
+            "continue_overdue_times": 0
+        },
+        "loan_behavior_analysis": {
+            "defaultday_from_first_to_end": "0",
+            "feature_7d": {
+                "jiedai4_sum_fail_cnt_d7": "0",
+                "jiedai_avg_defaultdays_d7": "0",
+                "jiedai4_count_fill_d3_cnt_d7": "0",
+                "jiedai_max_defaultdays_d7": "0",
+                "dd_jiedai_sum_fill_d5_cnt_d7": "0",
+                "dd_jiedai_count_fail_mamberadd_d7": "0",
+                "dd_jiedai_avg_fail_days1_d7": "0",
+                "jiedai_min_defaultdays_d7": "0",
+                "last_to_end_sure_due_all_pro_all_time_d7": "0",
+                "max_sure_due_days_non_cdq_all_time_d7": "0",
+                "sum_sure_due_days_all_pro_all_time_d7": "0",
+                "last_to_end_sure_due_non_cdq_all_time_d7": "0"
+            },
+            "feature_15d": {
+                "jiedai_avg_defaultdays_d15": "0",
+                "jiedai_min_defaultdays_d15": "0",
+                "jiedai4_sum_fail_cnt_d15": "0",
+                "dd_jiedai_avg_fail_days1_d15": "0",
+                "jiedai4_count_fill_d3_cnt_d15": "0",
+                "jiedai4_count_fill_d5_cnt_d15": "0",
+                "dd_jiedai_count_fail_mamberadd_d15": "0",
+                "jiedai_sum_fail_amt_d15": "0",
+                "dd_jiedai_max_fail_days1_d15": "0",
+                "sum_sure_due_days_all_pro_all_time_d15": "0",
+                "last_to_end_sure_due_all_pro_all_time_d15": "0",
+                "max_sure_due_days_non_cdq_all_time_d15": "0",
+                "last_to_end_sure_due_non_cdq_all_time_d15": "0"
+            },
+            "feature_30d": {
+                "jiedai_avg_defaultdays_m1": "0",
+                "dd_jiedai_max_fail_days1_m1": "0",
+                "jiedai4_sum_fail_cnt1": "0",
+                "dd_jiedai_max_fail_days_m1": "0",
+                "dd_jiedai_count_fail_mamberadd_m1": "0",
+                "jiedai4_count_fill_d3_cnt_m1": "0",
+                "dd_jiedai_min_fail_days1_m1": "0",
+                "jiedai_sum_fail_amt1": "0",
+                "cdq_dd_jiedai_max_fail_days1_m1": "0",
+                "jiedai4_count_fill_d5_cnt_m1": "0",
+                "jiedai4_avg_succ_amt1": "0",
+                "sum_sure_due_days_non_cdq_all_time_m1": "0",
+                "sum_sure_due_days_all_pro_all_time_m1": "0",
+                "avg_sure_due_days_non_cdq_all_time_m1": "0",
+                "pct_pay_amt_cdq_pro_all_time_m1": "0",
+                "max_pay_amt_all_pro_all_time_m1": "0"
+            },
+            "feature_90d": {
+                "jiedai_avg_defaultdays_m3": "0",
+                "dd_jiedai_max_fail_days1_m3": "0",
+                "dd_jiedai_avg_fail_days_m3": "0",
+                "dd_jiedai_count_fail_mamberadd_m3": "0",
+                "jiedai4_count_fill_d3_cnt_m3": "0",
+                "jiedai4_count_fill_d5_cnt_m3": "0",
+                "cdq_dd_jiedai_avg_fail_days1_m3": "0",
+                "jiedai4_avg_succ_amt3": "0",
+                "jiedai_sum_fail_amt3": "0",
+                "dd_jiedai_min_fail_days1_m3": "0",
+                "sum_sure_due_days_all_pro_all_time_m3": "0",
+                "sum_sure_due_days_non_cdq_all_time_m3": "0",
+                "avg_sure_due_days_all_pro_all_time_m3": "0",
+                "max_due_cnt_non_cdq_all_time_m3": "0",
+                "avg_sure_due_days_non_cdq_all_time_m3": "0",
+                "pct_pay_amt_cdq_pro_all_time_m3": "0"
+            },
+            "feature_180d": {
+                "jiedai_avg_defaultdays_m6": "0.0",
+                "dd_jiedai_avg_fail_days1_m6": "1.0",
+                "dd_jiedai_avg_fail_days_m6": "0",
+                "dd_jiedai_count_fail_mamberadd_m6": "0",
+                "jiedai4_count_fill_d3_cnt_m6": "0",
+                "cdq_dd_jiedai_avg_fail_days1_m6": "0",
+                "cdq_dd_jiedai_max_fail_days1_m6": "0",
+                "jiedai4_avg_succ_amt6": "0.0",
+                "jiedai4_count_fill_d5_cnt_m6": "0",
+                "sum_sure_due_days_non_cdq_all_time_m6": "0",
+                "max_sure_due_days_all_pro_all_time_m6": "0",
+                "avg_sure_due_days_all_pro_all_time_m6": "0",
+                "avg_sure_due_days_non_cdq_all_time_m6": "0",
+                "pct_pay_amt_cdq_pro_all_time_m6": "0"
+            },
+            "feature_360d": {
+                "dd_jiedai_max_fail_days_m12": "0",
+                "dd_jiedai_sum_fill_d5_cnt_m12": "0",
+                "last_to_end_sure_due_all_pro_all_time_m12": "0",
+                "sum_sure_due_days_non_cdq_all_time_m12": "0",
+                "last_to_end_sure_due_non_cdq_all_time_m12": "0",
+                "max_due_cnt_all_pro_all_time_m12": "0",
+                "max_due_cnt_non_cdq_all_time_m12": "0",
+                "max_pay_amt_all_pro_all_time_m12": "0",
+                "sum_pay_cnt_all_pro_all_time_m12": "0"
+            }
+        },
+        "fund_infos": [],
+        "bank_infos": {
+            "debit_card_info": {
+                "update_date": "2018-10-28",
+                "card_amount": 1,
+                "balance": "0~1000",
+                "total_income": "2000000以上",
+                "total_salary_income": "0~1000",
+                "total_loan_income": "0~1000",
+                "total_outcome": "2000000以上",
+                "total_consume_outcome": "0~1000",
+                "total_loan_outcome": "0~1000"
+            },
+            "credit_card_info": {
+                "update_date": "2018-10-28",
+                "card_amount": 1,
+                "total_credit_limit": "10000~20000",
+                "total_credit_available": "4000~6000",
+                "max_credit_limit": "10000~20000",
+                "overdue_times": 0,
+                "overdue_months": 0
+            }
+        },
+        "qualification_info": {
+            "zm_score_info": {
+                "last_modify_time": "",
+                "zm_score": ""
+            },
+            "huabei_info": {
+                "last_modify_time": "",
+                "huabai_limit": ""
+            },
+            "jiebei_info": {
+                "last_modify_time": "",
+                "credit_amt": ""
+            }
+        },
+        "fraudulence_info": {
+            "is_hit": false,
+            "type": ""
+        }
+    },
+    "fee": "Y"
+}
