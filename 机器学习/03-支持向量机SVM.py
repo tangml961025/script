@@ -36,18 +36,16 @@ X_test_std = sc.transform((X_test))
 
 
 # ====================================================================================
-# 训练感知器模型
-"""
-n_iter : 迭代次数
-eta0 : 学习率
-"""
-from sklearn.linear_model import Perceptron
-ppn = Perceptron(n_iter_no_change=30, eta0=1, random_state=1)
-ppn.fit(X_train_std,y_train)
+# SVM
+# ====================================================================================
+from sklearn.svm import SVC
+svm = SVC(kernel='linear', C=1.0, random_state=1)
+svm.fit(X_train_std, y_train)
 # 预测
-y_pred = ppn.predict(X_test_std)
+y_pred = svm.predict(X_test_std)
+print('【SVM】：')
 print('错误预测次数：%d次' %(y_pred != y_test).sum())
-print('预测准确度：%.2f' %ppn.score(X_test_std,y_test))
+print('预测准确度：%.2f' %svm.score(X_test_std,y_test))
 
 
 # ============================ 画图
@@ -58,8 +56,8 @@ import matplotlib.pyplot as plt
 X_combined_std = np.vstack((X_train_std, X_test_std))
 y_combined_std = np.hstack((y_train, y_test))
 
-plot_decision_regions(X=X_combined_std, y=y_combined_std
-                      ,classifier=ppn
+plot_decision_regions(X_combined_std, y_combined_std
+                      ,classifier=svm
                       ,test_idx=range(105,150))
 plt.xlabel('花瓣长度标准化')
 plt.ylabel('花瓣宽度标准化')

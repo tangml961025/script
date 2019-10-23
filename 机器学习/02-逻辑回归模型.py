@@ -34,10 +34,9 @@ sc.fit(X_train)
 X_train_std = sc.transform(X_train)
 X_test_std = sc.transform((X_test))
 
-#
-X_combined_std = np.vstack((X_train_std, X_test_std))
-y_combined_std = np.hstack((y_train, y_test))
 
+# ====================================================================================
+# 逻辑回归
 # ====================================================================================
 from sklearn.linear_model import LogisticRegression
 lr = LogisticRegression(C=100.0, random_state=1)
@@ -49,9 +48,13 @@ print('错误预测次数：%d次' %(y_pred != y_test).sum())
 print('预测准确度：%.2f' %lr.score(X_test_std,y_test))
 
 
+# ============================ 画图
 # 调用plot_decision_regions函数绘制模型决策区
 from model_visualization import plot_decision_regions
 import matplotlib.pyplot as plt
+
+X_combined_std = np.vstack((X_train_std, X_test_std))
+y_combined_std = np.hstack((y_train, y_test))
 
 plot_decision_regions(X_combined_std, y_combined_std
                       ,classifier=lr
